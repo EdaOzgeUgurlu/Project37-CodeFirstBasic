@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Project37_CodeFirstBasic.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Project37_CodeFirstBasic.Data
 {
@@ -9,7 +10,7 @@ namespace Project37_CodeFirstBasic.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=127.0.0.1;Port=5432;Username=postgres;Password=postgres;Database=PatikaCodeFirstDb1");
+            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Username=postgres;Password=123456eda;Database=PatikaCodeFirstDb1");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

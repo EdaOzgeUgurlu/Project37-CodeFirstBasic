@@ -15,6 +15,7 @@ namespace Project37_CodeFirstBasic.Data
         public string Platform { get; set; } = "";
 
         public decimal Rating { get; set; }
+        public List<Game> Games { get; set; }
 
     }
 }

@@ -15,6 +15,7 @@ namespace Project37_CodeFirstBasic.Data
         public string Genre { get; set; } = "";
 
         public int ReleaseYear { get; set; }
+        public List<Movie> Movies { get; set; }
 
     }
 }
