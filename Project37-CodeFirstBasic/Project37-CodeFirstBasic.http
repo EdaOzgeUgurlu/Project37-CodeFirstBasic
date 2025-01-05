@@ -1,0 +1,6 @@
+@Project37_CodeFirstBasic_HostAddress = http://localhost:5244
+
+GET {{Project37_CodeFirstBasic_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

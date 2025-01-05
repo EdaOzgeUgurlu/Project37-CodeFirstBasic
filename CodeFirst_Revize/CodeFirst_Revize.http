@@ -1,0 +1,6 @@
+@CodeFirst_Revize_HostAddress = http://localhost:5111
+
+GET {{CodeFirst_Revize_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
